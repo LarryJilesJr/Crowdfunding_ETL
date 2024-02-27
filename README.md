@@ -60,6 +60,16 @@ Database Setup Instructions:
 -Execute the SQL queries in crowdfunding_db.sql to import CSV data into corresponding tables.
 -Verify the data import and table creation by running SELECT statements for each table.
 
+Discussion questions:
+What are the challenges associated with ETL?
+There are several challenges associated with ETL. First, a challenge could be related to data quality issues. Data may contain inconsistencies, errors, or missing values, which can affect the accuracy and reliability of the transformed data. Additionally, integrating data from disparate sources with different formats, structures, and schemas can be complex where mapping data between source and target systems, resolving schema conflicts, and maintaining data consistency are common challenges in data integration. Lastly, data volume could be an associated challenge with ever growing large volumes of data could impair performance, ultimately affecting scalability issues across companies. 
+
+What are the benefits of ETL?
+There are several benefits to ETL processes, first one being the ability to integrate data from multiple disparate sources, such as databases, files and API sources. Through extracting data from these various sources and transforming into a unified format, it allows for a seamless data integration analysis and reporting. Additionally, this process helps to ensure data consistency and integrity by standardizing data formats, resolving schema conflicts and cleaning data of inconsistencies, errors, and duplicates. Another strong benefit of ETL is for business intelligence and analytics. ETL processes support BI and analytics by providing clean, standardized data for analysis and reporting. 
+
+How might ETL change when moving to the cloud?
+Cloud computing brings about several changes and opportunities for organizations utilizing ETL. Cloud platforms offer scalability and elasticity, allowing organizations to scale their ETL processes up or down based on need. Another potential benefit would be pay-per-use-pricing to allow companies to only pay for what they use instead of one size-fits-all licenses and payment structures that may be too costly for smaller businesses. Lastly, cloud-based ETL solutions provide native integration with advanced analytics  services, allowing organizations to enrich their data pipelines with machine learning models, predictive analytics, and real-time insights. 
+
 --
 **Source Data: 
 
